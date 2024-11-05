@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+   
+    <h1 class="has-text-centered ">Formulário</h1>
+
+    <br><br>
+
+    <div id="conteudoGeral">
+      <div id="primeiraParte ">
+
+  <form action="">
+    <label>Nome:</label>
+    <input  class="input is-rounded input is-link input is-small column is-two-quarter" class="tamanho" type="text" placeholder="Maria Vitoria Borges" />
+    <label>Telefone:</label>
+    <input  class="input is-rounded input is-link input is-small column is-two-quarter" class="tamanho" type="number" placeholder="9-9999-9999" />
+    <label for=""> Qual curso voce é:</label> <br>
+    <div class="select is-link is-rounded is-hovered select is-small">
+     
+      <select>
+        <option></option>
+        <option>Contabilidade</option>
+        <option>Informática</option>
+        <option>Administração</option>
+        <option>Eletronica</option>
+      </select>
+    </div>
+<br> <br>
+    <label for="">Voce concorda com isso?</label>
+    <div class="control">
+      <label class="radio">
+        <input type="radio" name="answer" />
+        Sim
+      </label>
+      <label class="radio">
+        <input type="radio" name="answer" />
+        Não
+      </label>
+      <br> <br>
+      <label class="checkbox">
+        <input type="checkbox" />
+        I agree to the <a href="#">terms and conditions</a>
+      </label>
+  
+      <br><br> <br><br>
+     
+
+    </div>
+    </div>
+    <br> <br>
+
+    <div id="segundaParte">
+    <label id="arquivo">Faça upload do arquivo: </label>
+    <br>
+    <div class="file has-name" id="mexer">
+      <label class="file-label">
+        <input class="file-input" type="file" name="resume" />
+        <span class="file-cta">
+          <span class="file-icon">
+            <i class="fas fa-upload"></i>
+          </span>
+          <span class="file-label"> Choose a file… </span>
+        </span>
+        <span class="file-name"> Screen Shot 2017-07-29 at 15.54.25.png </span>
+      </label>
+    </div>
+
+<br><br>
+      <div id="texto">
+      
+        <label for="">Sugestoes:</label>
+  
+          <textarea cols="50" rows="5" class="textarea" placeholder="Digite algo!"></textarea>
+        
+        </div>
+
+
+   
+  </div>
+ 
+<br> <br>
+   
+  </form>
+
+  
+
+</div>
+
+<div id="botao"> <button class="button is-link is-outlined">Enviar</button> </div>
+
+</body>
+</html>

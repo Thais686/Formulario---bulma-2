@@ -1,0 +1,54 @@
+
+#conteudoGeral{
+
+    margin-left: 200px;
+
+  
+}
+
+h1{
+
+    font-size: 30px;
+    color: blueviolet;
+}
+
+#conteudoGeral{
+
+    display: flex;
+    margin-left: 150px;
+}
+
+#primeiraParte{
+
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   flex: 1;
+   
+}
+
+#segundaParte{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex: 1;
+   
+}
+
+#botao{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#arquivo{
+
+    position: relative;
+
+    right: 120px;
+
+}
+
+
